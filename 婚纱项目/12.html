@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="js/reset.css">
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.center{
+			width: 100%;
+		}
+		.center-c{
+			width: 1920px;
+			margin:0 auto;
+		}
+		.zuopin{
+			width: 1920px;
+			margin:0 auto;
+		}
+		.cen-1{
+			margin:0 auto;
+			width: 1351px;
+		}
+		.cen-1-1{
+			width: 1351px;
+			margin:0 auto;
+			margin-bottom:22px;
+		}
+		.cen-1-1>img:nth-child(1){
+			margin-right:20px;
+			width: 658px;
+			height: 658px;
+		}
+		.cen-1-2{
+			width: 658px;
+			height: 658px;
+		}
+		img.cen-1-3{
+			margin-top:22px;
+			width:1330px;
+			height: 600px;
+		}
+		img.cen-1-4{
+			margin:50px 790px 40px 790px;
+		}
+		.cen-2{
+			margin:0 auto 50px;
+			width: 35px;
+		}
+		/*礼服展示*/
+		.lifu{
+			width: 1920px;
+			margin:0 auto;
+			background: #ccc;
+		}
+		
+		.lifu-l{
+			width: 542px;
+			margin:0 auto;
+			text-align: center;
+
+		}
+		.lifu-l>div{
+			color:#d91d36;
+			font-size: 26px;
+			font-family: "MicrosoftYaHei";
+			margin-top:32px;
+			margin-bottom:158px;
+		}
+		.lianxi{
+			margin-top:118px;
+			width: 1351px;
+			margin:118px auto 0;
+		}
+		.lianxi-hong{
+			width: 240px;
+			height: 80px;
+			color:white;
+			background: #d91d36;
+			border-radius: 10px;
+			line-height: 80px;
+			text-align: center;
+			font-size:24px;
+			margin-bottom:20px; 
+		}
+		.changjing{
+			width: 1920px;
+			margin:0 auto 160px;
+		}
+		.lianxi>div{
+			float: left;
+		}
+		.lianxi>.lianxi-zuo{
+			margin-right:26px;
+		}
+		.lianxi-zuo>div:nth-child(1){
+			margin-bottom:20px;
+		}
+		.lianxi-zuo>div:nth-child(1)>input{
+			width: 320px;
+			height: 54px;
+			background: #ccc;
+			border:0;
+		}
+		.lianxi-zuo>div:nth-child(1)>input:nth-child(1){
+			margin-right:20px;
+		}
+		.lianxi-zuo>div:nth-child(2){
+			margin-bottom:20px;
+		}
+		.lianxi-zuo>div:nth-child(2)>textarea{
+			width: 660px;
+			height: 140px;
+			background: #ccc;
+			border:0;
+		}
+		.lianxi-zuo>div:nth-child(3)>input{
+			width: 660px;
+			height: 54px;
+			background: orange;
+			border:0;
+			font-size: 24px;
+			color:#ffffff;
+		}
+		.clr{
+			clear:both;
+		}
+	</style>
+</head>
+<body>
+	<div class="center">
+		<div class="center-c">
+			<div class="zuopin">
+				<div><img src="img/1.png" alt=""></div>
+				<div class="cen-1">
+					<div class="cen-1-1">
+						<img src="img/2.png" alt="">
+						<img src="img/3.png" alt="">
+					</div>
+					<img src="img/4.png" alt="" class="cen-1-3">
+				</div>
+				<img src="img/logo_midilaxiao.png" alt="" class="cen-1-4">
+				<div class="cen-2">
+					<img src="img/pic_zhuangshi.png" alt="" class="cen-1-5">
+				</div>
+			</div>
+		</div>
+		<!-- 礼服展示 -->
+		<div class="lifu">
+			<div class="lifu-l">
+				<img src="img/logo_midila.png" alt="" style="margin-top:74px;">
+				<div>礼服配饰</div>
+			</div>
+			<div class="cen-1-1">
+				<img src="img/5.png" alt="">
+				<img src="img/6.png" alt="">
+			</div>	
+			<div class="cen-1-1">
+				<img src="img/7.png" alt="">
+				<img src="img/8.png" alt="">
+			</div>
+			<img src="img/logo_midilaxiao.png" alt="" class="cen-1-4">
+			<div class="cen-2" style="margin:0 auto;padding-bottom:50px; ">
+				<img src="img/pic_zhuangshi.png" alt="" class="cen-1-5">
+			</div>
+		</div>
+		<!-- 场景展示 -->
+		<div class="changjing">
+			<div class="lifu-l">
+				<img src="img/logo_midila.png" alt="" style="margin-top:74px;">
+				<div>场景展示</div>
+			</div>
+			<div class="cen-1">
+				<div class="cen-1-1">
+					<img src="img/9.png" alt="">
+					<img src="img/10.png" alt="">
+				</div>
+				<img src="img/11.png" alt="" class="cen-1-3">
+			</div>
+			<!-- 联系我们 -->
+			<div class="lianxi">
+				<div class="lianxi-hong" style="float:none;">联系我们</div>
+				<div class="lianxi-zuo">
+					<div>
+						<input type="text" placeholder="姓名：">
+						<input type="text" placeholder="年龄：">
+					</div>
+					<div>
+						<textarea name="" id="" cols="30" rows="10" placeholder="你的愿望："></textarea>
+					</div>
+					<div>
+						<input type="submit" value="提交">
+					</div>
+				</div>
+				<div>
+					<img src="img/12.png" alt="">
+				</div>
+			</div>
+			<div class="clr"></div>
+		</div>
+		<div>
+			<img src="img/13.png" alt="">
+		</div>
+	
+	</div>
+</body>
+</html>
